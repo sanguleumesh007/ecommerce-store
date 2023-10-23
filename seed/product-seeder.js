@@ -4,7 +4,7 @@ var mongoose = require("mongoose");
 
 mongoose
   .connect(
-    "mongodb+srv://umesh11:sangule123@cluster0.wlwk6bc.mongodb.net/Ecomm"
+    "mongodb+srv://<Username>:<Password>@cluster0.wlwk6bc.mongodb.net/Ecomm"
   )
   .then(() => {
     console.log("Connected");
