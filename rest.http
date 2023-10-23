@@ -1,0 +1,13 @@
+## Categories Routes...........
+GET http://localhost:3000/
+
+### Categories Routes...........
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "imagePath":"https://images-na.ssl-images-amazon.com/images/I/61SacrIvdEL._SL1000_.jpg",
+    "title": "Salt",
+    "description": "1kg tata salt",
+    "price": 18
+}
